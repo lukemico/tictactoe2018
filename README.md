@@ -1,7 +1,8 @@
-tic-tac-toe - GA Project 0
-First project whilst at General Assembly was to build on online game - tic-tac-toe using in JavaScript.
+tic-tac-toe - Project 0
 
-This version is an update to incorporate further knowledge, to deliver a vanilla JavScript version. 
+An updated version of my first project whilst studying at General Assembly was to build on online game - tic-tac-toe using in JavaScript.
+
+This version is an update to incorporate further knowledge, to deliver a vanilla JavScript version, not using dependcies such as jQuery. 
 
 Built with
 - JavaScript
