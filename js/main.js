@@ -1,5 +1,3 @@
-
-
 var turn = 'X';
 var score = {
     'X': 0,
