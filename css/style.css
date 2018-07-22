@@ -44,7 +44,7 @@ select {
 }
 
 .minContainer2 {
-    padding-top: 10px;
+    padding-top: 30px;
     margin-top: 30px;
     margin: 0 auto;
     text-align: center;
@@ -106,16 +106,23 @@ table {
 
 .newGame {	
 	background: #1a0033;
-	width: 160px;
+	color: white;
+	width: 180px;
 	height: 34px;
 	border-radius: 20px;
 	border:1px solid #333;
 	padding: 5px;
-	color: white;
 	cursor: pointer;
 	font-size: 16px;
+/* 	font-family: 'Playfair Display', serif; */
 	margin: 0 0 10px 0;	
 }
+
+.newGame:hover {
+	background: white;
+	color: #1a0033;
+}
+
 
 
 .turn {

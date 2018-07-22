@@ -123,3 +123,36 @@ function isEven(value) {
     else
         return false;
 }
+
+
+
+$("td").click(function() {
+      td = $(this);
+      var state = getState(td);
+      if (!state) {
+        var pattern = definePatternForCurrentPlayer(player);
+        changeState(td, pattern);
+        if (checkIfPlayerWon(table, pattern)) {
+          window.alert(
+            "Player " + player + " has wins! DONUTS for everyone..."
+          );
+          // message.html('Player '+player+' has won.');
+          turn.html("");
+        } else {
+          player = setNextPlayer(player);
+          displayNextPlayer(turn, player);
+        }
+      } else {
+        window.alert("Duh! This box is already checked.");
+        // message.html('This box is already checked.');
+      }
+    });
+
+    $(".reset").click(function() {
+      player = 1;
+      message.html("");
+      reset(table);
+      displayNextPlayer(turn, player);
+    });
+
+
